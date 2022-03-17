@@ -1,0 +1,58 @@
+.containerflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .containerflex a{
+     text-decoration: none;
+     color: rgb(252, 211, 162) 
+  }
+  
+  .divright{
+      border-top-right-radius: 5%;
+      border-bottom-right-radius: 5%;
+      background-color: rgb(28, 2, 53);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 317px;
+      width: 400px;
+      text-align: justify;
+      
+  }
+  
+  .divright p{
+      font-size: 1.1em;
+      padding: 10px;
+      margin: 0;
+  } 
+  
+  .p2{
+      border-top: 1px solid white;
+  }
+  
+  .divright h1{
+      color: white;
+      font-size: 2em;
+      text-align: center;
+      padding: 10px;
+      margin: 0;
+      font-family:swiss;
+  } 
+  
+  h4{
+      color: rgb(252, 211, 162);
+      margin: 0;
+      padding: 10px;
+      padding-top: 0;
+      font-size: 2em;
+      font-family:swiss;
+      text-align: center;
+  }
+
+  

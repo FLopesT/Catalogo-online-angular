@@ -1,0 +1,732 @@
+.imgleftmesa{
+    width: 600px;   
+}
+
+.imgleftgrampeador{
+    height: 450px;    
+}
+
+.imgleftsofa{
+    height: 450px;
+}
+
+.imgleftcama{
+    height: 450px;    
+}
+
+.imgleftsmartphone{  
+    height: 600px;
+}
+
+.imgleftcriadomudo{
+    height: 450px;    
+}
+
+.imgleftmesaescritorio{
+    height: 450px;    
+}
+
+.imgleftpiadupla{
+    width: 625px;
+}
+
+.imgleftpoltrona{
+    height: 500px;    
+}
+
+.imgleftportatoalhas{
+    height: 450px;
+}
+
+.imglefttalheres{
+    width: 200px;    
+}
+
+.imgleftventilador{
+    width: 400px;
+}
+
+@media screen and (max-width:1104px){
+
+    .containerflexsofa{
+        flex-direction: column;
+       }
+    
+       .imgleftsofa{
+           height: 400px;
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightsofa{
+           height: auto;
+           width: 599.94px;
+           margin: auto;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2sofa{
+           text-align: center;
+       }
+
+}
+
+@media screen and (max-width:1061px){ 
+
+    .containerflexpoltrona{
+        flex-direction: column;
+       }
+    
+       .imgleftpoltrona{
+           height:400px;
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightpoltrona{
+           height: auto;
+           width: 499.66px;
+           margin: auto;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2poltrona{
+           text-align: center;
+       }
+
+}
+
+@media screen and (max-width:1053px){
+
+
+    .containerflexpiadupla{
+     flex-direction: column;
+    }
+ 
+    .imgleftpiadupla{
+        margin: auto;
+        border-top-right-radius: 5%;
+        border-top-left-radius: 5%;
+    }
+ 
+    .divrightpiadupla{
+        height: auto;
+        margin: auto;
+        width: 625px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 5%;
+    }
+ 
+    .p2piadupla{
+        text-align: center;
+    }
+ }
+
+@media screen and (max-width:1049px){
+
+    .containerflexmesa{
+        flex-direction: column;
+       }
+    
+       .imgleftmesa{
+           height: 400px;
+           width: auto;
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightmesa{
+           height: auto;
+           width: 499.7px;
+           margin: auto;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2mesa{
+           text-align: center;
+       }
+}
+
+@media screen and (max-width:1011px){
+
+    .containerflexcama{
+        flex-direction: column;
+       }
+    
+       .imgleftcama{
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightcama{
+           height: auto;
+           width: 580.94px;
+           margin: auto;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2cama{
+           text-align: center;
+       }
+
+}
+
+@media screen and (max-width:903px){
+
+    .containerflexportatoalhas{
+        flex-direction: column;
+       }
+    
+       .imgleftportatoalhas{
+           width: 400px;
+           height: auto;
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightportatoalhas{
+           height: auto;
+           margin: auto;
+           width: 400px;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2portatoalhas{
+           text-align: center;
+       }
+
+}
+
+@media screen and (max-width:902px){
+
+    .containerflexgrampeador{
+        flex-direction: column;
+       }
+    
+       .imgleftgrampeador{
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightgrampeador{
+           height: auto;
+           width: 478px;
+           margin: auto;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2grampeador{
+           text-align: center;
+       }
+
+}
+
+@media screen and (max-width:891px){
+
+    .containerflexmesaescritorio{
+        flex-direction: column;
+       }
+    
+       .imgleftmesaescritorio{
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightmesaescritorio{
+           height: auto;
+           width: 450px;
+           margin: auto;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2mesaescritorio{
+           text-align: center;
+       }
+
+}
+
+@media screen and (max-width:854px){
+
+    .containerflexcriadomudo{
+        flex-direction: column;
+       }
+    
+       .imgleftcriadomudo{
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightcriadomudo{
+           height: auto;
+           width: 429.91px;
+           margin: auto;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2criadomudo{
+           text-align: center;
+       }
+}
+
+@media screen and (max-width:850px){
+
+    .containerflexsmartphone{
+        flex-direction: column;
+       }
+    
+       .imgleftsmartphone{
+           height: 550px;
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightsmartphone{
+           height: auto;
+           margin: auto;
+           width: 327.73px;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2smartphone{
+           text-align: center;
+       }
+    
+}
+
+@media screen and (max-width:840px){
+
+    .containerflexventilador{
+        flex-direction: column;
+       }
+    
+       .imgleftventilador{
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrightventilador{
+           height: auto;
+           margin: auto;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2ventilador{
+           text-align: center;
+       }
+
+}
+
+@media screen and (max-width:702px){
+
+    .imgleftpiadupla{
+        width: 400px;
+    }
+ 
+    .divrightpiadupla{
+        width: 400px;
+    }
+
+    .imgleftcama{
+        height: 380px;
+    }
+
+    .divrightcama{
+        width: 490.58px;
+    }
+ }
+
+ @media screen and (max-width:686px){
+
+    .containerflextalheres{
+        flex-direction: column;
+       }
+    
+       .imglefttalheres{
+           height: 400px;
+           width: auto;
+           margin: auto;
+           border-top-right-radius: 5%;
+           border-top-left-radius: 5%;
+       }
+    
+       .divrighttalheres{
+           height: auto;
+           width: 390px;
+           margin: auto;
+           border-top-right-radius: 0;
+           border-bottom-left-radius: 5%;
+       }
+    
+       .p2talheres{
+           text-align: center;
+       }
+
+}
+
+ @media screen and (max-width:640px){
+
+    .imgleftgrampeador{
+        width: 400px;
+        height: auto;
+    }
+   
+    .divrightgrampeador{
+        width: 400px;
+    }
+   }
+
+
+   @media screen and (max-width:633px){
+
+    .imgleftsofa{
+        width: 400px;
+        height: auto;
+    }
+
+    .divrightsofa{
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width:581px){
+
+    .imgleftmesa{
+        height: auto;
+        width: 450px;
+    }
+
+    .divrightmesa{
+        width: 450px;
+    }
+
+}
+
+ @media screen and (max-width:557px){
+
+    .imgleftcriadomudo{
+        width: 350px;
+        height: auto;
+    }
+
+    .divrightcriadomudo{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:542px){
+
+    .imgleftpoltrona{
+        width: 400px;
+        height: auto;
+    }
+
+    .divrightpoltrona{
+        width: 400px;
+    }
+
+}
+
+ @media screen and (max-width:540px){
+
+    .imgleftcama{
+        height: 300px;
+    }
+
+    .divrightcama{
+        width: 387.30px;
+    }
+ }
+
+ @media screen and (max-width:515px){
+
+    .imgleftmesaescritorio{
+        height: auto;
+        width: 380px;
+    }
+
+    .divrightmesaescritorio{
+        width: 380px;
+    }
+}
+
+ @media screen and (max-width:501px){
+
+    .imgleftmesa{
+        width: 400px;
+    }
+
+    .divrightmesa{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:498px){
+
+    .imgleftventilador{  
+    width: 300px;
+    }
+  
+    .divrightventilador{
+        height: auto;
+        width: 300px;
+    }
+  }
+
+@media screen and (max-width:492px){
+
+    .imgleftportatoalhas{
+        width: 300px;
+    }
+ 
+    .divrightportatoalhas{
+        width: 300px;
+    }
+ 
+ 
+ }
+
+@media screen and (max-width:437px){
+
+    .imgleftpoltrona{
+        width: 360px;
+    }
+
+    .divrightpoltrona{
+        width: 360px;
+    }
+
+}
+
+@media screen and (max-width:440px){
+
+    .imgleftmesa{
+        width: 360px;
+    }
+
+    .divrightmesa{
+        width: 360px;
+    }
+
+}
+
+@media screen and (max-width:438px){
+
+    .divrighttalheres{
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width:423px){
+
+    .imgleftpiadupla{
+        width: 310px;
+    }
+
+    .divrightpiadupla{
+        width: 310px;
+    }
+
+ }
+
+ @media screen and (max-width:428px){
+
+    .imgleftsofa{
+        width: 300px;
+    }
+
+    .divrightsofa{
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width:420px){
+
+    .imgleftmesaescritorio{
+        width: 300px;
+    }
+
+    .divrightmesaescritorio{
+        width: 300px;
+    }
+}
+
+ @media screen and (max-width:413px){
+
+    .imgleftcama{
+        width: 340px;
+        height: auto;
+    }
+
+    .divrightcama{
+        width: 340px;
+    }
+ }
+
+ @media screen and (max-width:399px){
+
+    .imgleftgrampeador{
+        width: 290px;
+    }
+
+    .divrightgrampeador{
+        width: 290px;
+    }
+
+    .imgleftcriadomudo{
+        width: 310px;
+    }
+
+    .divrightcriadomudo{
+        width: 310px;
+    }
+
+}
+
+@media screen and (max-width:390px){
+
+    .imgleftmesa{
+        width: 290px;
+    }
+
+    .divrightmesa{
+        width: 290px;
+        height: auto;
+    }
+
+    .imglefttalheres{
+        height: 350px;
+    }
+    
+    .divrighttalheres{
+        width: 310px;
+    }
+
+}
+
+@media screen and (max-width:387px){
+
+    .imgleftpoltrona{
+        width: 300px;
+    }
+
+    .divrightpoltrona{
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width:369px){
+
+    .imgleftsmartphone{
+        height: 400px;
+    }
+ 
+    .divrightsmartphone{
+        width: 238.36px;
+    }
+ 
+ }
+
+ @media screen and (max-width:368px){
+
+    .imgleftcama{
+        width: 300px;
+    }
+
+    .divrightcama{
+        width: 300px;
+    }
+ }
+
+ @media screen and (max-width:347px){
+
+    .imgleftportatoalhas{
+        width: 290px;
+    }
+ 
+    .divrightportatoalhas{
+        width: 290px;
+    }
+ 
+ 
+ }
+
+ @media screen and (max-width:330px){
+
+    .imgleftsofa{
+        width: 285px;
+    }
+
+    .divrightsofa{
+        width: 285px;
+    }
+
+    .divrighttalheres{
+        width: 300px;
+    }
+
+    .imgleftmesaescritorio{
+        width: 280px;
+    }
+
+    .divrightmesaescritorio{
+        width: 280px;
+    }
+
+    .imgleftpiadupla{
+        width: 290px;
+    }
+
+    .divrightpiadupla{
+        width: 290px;
+    }
+
+    .imgleftpoltrona{
+        width: 285px;
+    }
+
+    .divrightpoltrona{
+        width: 285px;
+    }
+
+     .imgleft{
+        width: 275px;
+    }
+ 
+    .divright{
+        width: 275px;
+    }
+
+    .imgleftventilador{  
+        width: 250px;
+        }
+      
+    .divrightventilador{
+        width: 250px;
+        height: auto;
+    }
+
+}

@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #1d0037;
+    margin: 0;
+    height: 100%;
+}
+
+ @font-face {
+    font-family: Staatliches;
+     src: url(./assets/fonts/Staatliches-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: AfterSmile;
+     src: url(./assets/fonts/AfterSmile-Regular.otf);
+ }
+
+ @font-face {
+     font-family: swiss;
+     src: url(./assets/fonts/swiss-721.otf);
+ }
+
+
+.container{
+    background-color: rgb(233, 227, 227); 
+}
+
+p{
+    cursor: default;
+}
+
+/*---------------------------------Conteúdo páginas de mostruário--------------------------------------------------------------*/
+
+h1{
+ font-size: 1.5em;
+}
+
+section{   
+     margin: auto; 
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     padding-top: 40px;
+     max-width: 1218px;
+}
+
+.center{
+
+  justify-content: center;
+
+}
+
+section a{
+   text-decoration: none;
+   color: rgb(107, 103, 93);
+}
+
+section a:hover{
+    color: rgb(6, 119, 194);
+}
+
+section div{
+    text-align:center;
+    font-family:swiss;
+    height: 500px;
+    max-width: 280px;
+    min-width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    border: 2px solid rgb(121, 27, 165);
+    border-radius: 16px;
+    background-color: white;
+}
+
+.center div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.preco{
+   color: rgb(32, 122, 206); 
+   font-size: 2em;
+   font-weight: 600;
+}
+
+/*----------------------conteúdo de página de produto----------------------*/
+
+
+/*----------------responsividade----------------*/
+
+@media screen and (max-width:838px){
+
+    #p{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:330px){
+    .body{
+        min-width:330px ;
+    }
+
+    .container{
+        min-width: 330px;
+    }
+}

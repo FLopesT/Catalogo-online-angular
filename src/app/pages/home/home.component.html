@@ -1,0 +1,19 @@
+<section>
+
+    <div class="itemLink" *ngFor="let item of produtos">
+
+        <a routerLink="/product/{{item.name}}">
+            <img src="{{item.imgSrc}}" style="{{item.inlineStyle}}">
+        </a>
+
+        <a routerLink="/product/{{item.name}}">
+            <h1>{{item.title}}</h1>
+        </a>
+
+        <p>{{item.about}}</p>
+        
+        <p class="preco">{{item.price}}</p>
+
+    </div>
+
+</section>
