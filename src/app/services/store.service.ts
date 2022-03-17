@@ -207,7 +207,7 @@ export class StoreService {
       });
     });
     if (obj) {
-      //randomProducts(products);
+      this.randomProducts(products);
     }
     return products;
   }
@@ -223,6 +223,15 @@ export class StoreService {
     });
     return product;
   }
+
+  public randomProducts(p:any) {
+    let i = p.length, iRandom;
+    while (i != 0) {
+        iRandom = Math.floor(Math.random() * i);
+        i--;
+        [p[i], p[iRandom]] = [p[iRandom], p[i]];
+    }
+}
 
 }
 
