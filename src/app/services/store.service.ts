@@ -224,14 +224,14 @@ export class StoreService {
     return product;
   }
 
-  public randomProducts(p:any) {
+  public randomProducts(p: any) {
     let i = p.length, iRandom;
     while (i != 0) {
-        iRandom = Math.floor(Math.random() * i);
-        i--;
-        [p[i], p[iRandom]] = [p[iRandom], p[i]];
+      iRandom = Math.floor(Math.random() * i);
+      i--;
+      [p[i], p[iRandom]] = [p[iRandom], p[i]];
     }
-}
+  }
 
 }
 

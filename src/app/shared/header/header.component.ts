@@ -99,9 +99,19 @@ export class HeaderComponent implements OnInit {
   }
 
   //footer flash
+
+  public ft: boolean = false;
+
   public fAnimation(): void {
+    let time: number;
+    if (!this.ft) {
+      time = 700;
+      this.ft = true;
+    } else {
+      time = 300;
+    }
     window.scrollTo(0, 9000);
-    setTimeout(() => {
+    //setTimeout(() => {
       let fBlock: any = document.getElementById("fa");
       setTimeout(() => {
         fBlock.setAttribute("class", "wowFooter");
@@ -111,9 +121,9 @@ export class HeaderComponent implements OnInit {
           fBlock.setAttribute("style", "display:none")
         }
         setTimeout(remove, 500);
-      }, 300);
+      }, time);
 
-    }, 100)
+    //}, 100)
   }
 
 }
