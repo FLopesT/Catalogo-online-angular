@@ -103,27 +103,25 @@ export class HeaderComponent implements OnInit {
   public ft: boolean = false;
 
   public fAnimation(): void {
+
     let time: number;
     if (!this.ft) {
-      time = 700;
+      time = 500;
       this.ft = true;
     } else {
       time = 300;
     }
     window.scrollTo(0, 9000);
-    //setTimeout(() => {
-      let fBlock: any = document.getElementById("fa");
-      setTimeout(() => {
-        fBlock.setAttribute("class", "wowFooter");
-        fBlock.removeAttribute("style")
-        let remove = function () {
-          fBlock.removeAttribute("class");
-          fBlock.setAttribute("style", "display:none")
-        }
-        setTimeout(remove, 500);
-      }, time);
-
-    //}, 100)
+    let fBlock: any = document.getElementById("fa");
+    setTimeout(() => {
+      fBlock.setAttribute("class", "wowFooter");
+      fBlock.removeAttribute("style")
+      let remove = function () {
+        fBlock.removeAttribute("class");
+        fBlock.setAttribute("style", "display:none")
+      }
+      setTimeout(remove, 500);
+    }, time);
   }
 
 }
