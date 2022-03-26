@@ -16,8 +16,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
 
-    //categorias     console.log(this.storeservice.findCP("sala"));
-    
   }
 
 }

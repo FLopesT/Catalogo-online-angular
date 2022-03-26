@@ -1,6 +1,6 @@
 
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { StoreService } from 'src/app/services/store.service';
 
 @Component({
@@ -12,12 +12,22 @@ export class ProductComponent implements OnInit {
 
   public produto: any = {};
 
-  constructor(public route: ActivatedRoute, public storeservice: StoreService) {
+  constructor(private route: ActivatedRoute, private storeservice: StoreService, private routes: Router) {
     let productId: any;
     this.route.params.subscribe(
-      res => productId = res['id']
+      {
+        next: res => productId = res['id'],
+        error: error => error
+      }
+
     )
-    this.produto = this.storeservice.getProduct(productId)
+
+    let found = this.storeservice.allProducts(false).find(p => p == productId);
+    if (found) {
+      this.produto = this.storeservice.getProduct(productId)
+    } else {
+      this.routes.navigateByUrl('');
+    }
 
   }
 

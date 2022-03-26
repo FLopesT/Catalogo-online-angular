@@ -7,7 +7,6 @@ import { StoreTypes } from '../interfaces/store-types';
 })
 export class StoreService {
 
-
   private content: Array<StoreTypes> = [
 
     {

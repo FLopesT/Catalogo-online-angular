@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { StoreService } from 'src/app/services/store.service';
 import { Produto } from 'src/app/interfaces/store-types';
 
@@ -12,15 +12,24 @@ import { Produto } from 'src/app/interfaces/store-types';
 export class CategoryComponent implements OnInit {
 
   public produtos: Array<Produto> = [];
-  
-  constructor(public route: ActivatedRoute, public storeservice: StoreService) {
+
+  constructor(private route: ActivatedRoute, private storeservice: StoreService, private routes: Router) {
+
+    let categoryId: any;
+    this.route.params.subscribe({
+      next: res => categoryId = res['id'],
+      error: error => error
+    })
+
+    let found = this.storeservice.allCategorys().find(p => p == categoryId);
+
+    if (found) {
+      this.produtos = this.storeservice.findCP(categoryId);
+    } else {
+      this.routes.navigateByUrl('');
+    }
+
     
-    let categoryId:any;
-    this.route.params.subscribe(
-      res=> categoryId = res['id']
-    )
-    
-    this.produtos = this.storeservice.findCP(categoryId);
 
   }
 

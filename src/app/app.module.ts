@@ -10,7 +10,6 @@ import { ProductComponent } from './pages/product/product.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +17,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     CategoryComponent,
     ProductComponent,
     HeaderComponent,
-    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
