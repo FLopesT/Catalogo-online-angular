@@ -14,13 +14,16 @@ export class ProductComponent implements OnInit {
 
   constructor(private route: ActivatedRoute, private storeservice: StoreService, private routes: Router) {
     let productId: any;
-    this.route.params.subscribe(
-      {
-        next: res => productId = res['id'],
-        error: error => error
-      }
 
-    )
+    productId = this.route.snapshot.params['id'];
+
+    // this.route.params.subscribe(
+    //   {
+    //     next: res => productId = res['id'],
+    //     error: error => error
+    //   }
+
+    // )
 
     let found = this.storeservice.allProducts(false).find(p => p == productId);
     if (found) {
