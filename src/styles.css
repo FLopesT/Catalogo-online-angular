@@ -1,5 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+*{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 body{
     background-color: #1d0037;
     margin: 0;
@@ -23,7 +32,7 @@ body{
 
 
 .container{
-    background-color: rgb(233, 227, 227); 
+    background-color: rgb(233, 227, 227);
 }
 
 p{
@@ -36,8 +45,8 @@ h1{
  font-size: 1.5em;
 }
 
-section{   
-     margin: auto; 
+section{
+     margin: auto;
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
@@ -86,7 +95,7 @@ section p{
 }
 
 .preco{
-   color: rgb(32, 122, 206); 
+   color: rgb(32, 122, 206);
    font-size: 2em;
    font-weight: 600;
 }
